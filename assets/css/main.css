@@ -7,7 +7,7 @@
 }
 
 a {
-  color: #f45b5b;
+  color: #e0bc00;
   text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 995;
-  background: #934444;
+  background: #e0bc00;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -151,7 +151,7 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #2c2a25;
   line-height: 0;
 }
 
@@ -1137,9 +1137,10 @@ section {
 }
 
 .about .nav-link.active {
-  color: #f45b5b;
+  color: #e0bc00;
   background: none;
-  border-bottom: 3px solid #f45b5b;
+  border-bottom: 3px solid #e0bc00;
+  cursor: default;
 }
 
 @media (max-width: 575px) {
@@ -1159,7 +1160,7 @@ section {
   font-size: 22px;
   line-height: 0;
   margin-right: 8px;
-  color: #f45b5b;
+  color: #e0bc00;
 }
 
 .mt-4 {
