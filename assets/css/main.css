@@ -580,6 +580,9 @@ section {
   background-size: cover;
   position: relative;
   padding: 85px 0 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-animated .overlay-hero {
@@ -694,7 +697,7 @@ section {
 
 @media (max-width: 640px) {
   .hero-animated h2 {
-    font-size: 4em !important;
+    font-size: 2.5em !important;
   }
 
   .hero-animated p {
