@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: Johnston;
+  src: url(/assets/fonts/johnstonitcstd-medium.otf) format("truetype");
+}
+
 :root {
   scroll-behavior: smooth;
 }
@@ -26,7 +31,7 @@ h6 {
 
 body {
   background-color: #18191a;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Johnston;
 }
 
 
@@ -292,7 +297,7 @@ section {
   .navbar .active:focus,
   .navbar li:hover>a {
     color: #fff;
-    background: #a83f3f;
+    background: #e0bc00;
   }
 
 
@@ -314,7 +319,7 @@ section {
 
   .navbar a span, .navbar a:focus span {
     display: none;
-    color: #fff;
+    color: #2c2a25;
     padding: 0 5px 0 7px;
   }
 
@@ -347,7 +352,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #2c2a25;
   }
 
   .navbar .dropdown a:hover:before,
