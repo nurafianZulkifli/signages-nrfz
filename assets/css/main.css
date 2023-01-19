@@ -583,7 +583,7 @@ section {
 }
 
 .hero-animated .overlay-hero {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0px;
@@ -618,7 +618,7 @@ section {
 }
 
 .hero-animated .hero-hello {
-  font-size: 5.5em;
+  font-size: 4.5em;
   color: #fff;
   cursor: default;
 }
