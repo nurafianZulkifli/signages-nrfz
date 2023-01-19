@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
-  font-family: Johnston;
-  src: url(/assets/fonts/johnstonitcstd-medium.otf) format("truetype");
-}
 
 :root {
   scroll-behavior: smooth;
@@ -31,7 +27,7 @@ h6 {
 
 body {
   background-color: #18191a;
-  font-family: Johnston;
+  font-family: 'Alata', sans-serif;
 }
 
 
@@ -296,7 +292,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #2c2a25;
     background: #e0bc00;
   }
 
@@ -403,7 +399,7 @@ section {
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
     color: #fff;
-    background: #a8f3f;
+    background: #a83f3f;
   }
 
   .navbar .dropdown:hover>ul {
@@ -1242,23 +1238,33 @@ section {
   transition: all .7s ease;
 }
 
-.timelines .nav-link i {
+.timelines .nav-link i{
   font-size: 32px;
   line-height: 0;
   margin-top: 0.4em;
   margin-bottom: 0.6em;
+  color: #2c2a25;
 }
+
+.timelines .nav-link i.no-hover {
+  color: #fff;
+}
+
 
 .timelines .nav-link h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
-  color: #fff;
+  color: #2c2a25;
   text-align: center;
 }
 
+.timelines .nav-link h4.no-hover {
+  color: #fff;
+}
+
 .timelines .nav-link:hover {
-  background-color: #a35d5d;
+  background-color: #b09400;
   animation: pulse 500ms;
   transform: scale(1.05);
 }
@@ -1292,18 +1298,22 @@ p.summary {
   cursor: default;
 }
 
+p.contextImg-caption {
+  color: #fff;
+}
+
 .timelines .nav-link.active {
   transition: 0.3s;
-  background: #934444;
+  background: #e0bc00;
   border-color: var(--color-primary);
 }
 
 .timelines .nav-link.active h4 {
-  color: #fff;
+  color: #2c2a25;
 }
 
 .timelines .nav-link.active i {
-  color: #fff !important;
+  color: #2c2a25 !important;
 }
 
 .timelines .tab-content {
