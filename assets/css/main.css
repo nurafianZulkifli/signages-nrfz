@@ -1306,6 +1306,12 @@ p.summary {
   margin-bottom: 3rem;
 }
 
+p.summary-norm {
+  color: #fff;
+  font-size: 1.0em;
+  cursor: default;
+}
+
 p.contextImg-caption {
   color: #fff;
   margin-bottom: 3rem;
