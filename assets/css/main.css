@@ -1303,10 +1303,19 @@ p.summary {
   color: #fff;
   font-size: 1.0em;
   cursor: default;
+  margin-bottom: 3rem;
 }
 
 p.contextImg-caption {
   color: #fff;
+  margin-bottom: 3rem;
+}
+
+blockquote {
+  background-color: #313131;
+  padding: 2em;
+  color: #fff;
+  border-radius: 1em;
 }
 
 .timelines .nav-link.active {
@@ -1355,14 +1364,15 @@ p.contextImg-caption {
   color: #a83f3f;
 }
 
-.timelines .tab-pane p:last-child {
+/* .timelines .tab-pane p:last-child {
   margin-bottom: 0;
   margin: 3%;
-}
+} */
 
 .timelines .summary-tit {
   margin-bottom: 0;
   margin: 3%;
+  margin-left: 0%;
 }
 
 @keyframes fadeIn {
