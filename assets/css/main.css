@@ -1306,6 +1306,10 @@ p.summary {
   margin-bottom: 3rem;
 }
 
+span#more {
+  display: none;
+}
+
 p.summary-norm {
   color: #fff;
   font-size: 1.0em;
