@@ -14,937 +14,197 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 
-
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
-  <link href="assets/css/variables.css" rel="stylesheet">
-
   <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <!-- =============================================================== Header =============================================================== -->
-  <header id="header" class="header fixed-top" data-scrollto-offset="0">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-      <a href="/" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <img src="assets/img/logo.png" alt="">
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#hero-animated" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#problem" class="nav-link scrollto"><i class='bx bx-question-mark'></i><span>The
-                Problem</span></a></li>
-          <li><a href="#solution" class="nav-link scrollto"><i class='bx bx-bulb'></i><span>The
-                Solution</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class='bx bxs-info-circle'></i> <span>About
-                Project</span></a></li>
-          <li><a href="#connect" class="nav-link scrollto"><i class="bx bxs-group"></i> <span>Main Website</span></a>
-          </li>
-        </ul>
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#problem" class="nav-link scrollto"><i class='bx bx-question-mark'></i> <span>The
+              Problem</span></a></li>
+        <li><a href="#solution" class="nav-link scrollto"><i class='bx bx-bulb'></i><span>The Solution</span></a>
         </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle d-none"></i>
-      </nav><!-- .navbar -->
+        <li><a href="#about" class="nav-link scrollto"><i class='bx bxs-info-circle'></i><span>About</span></a></li>
+        <li><a href="#connect" class="nav-link scrollto"><i class="bx bxs-group"></i><span>Connect</span></a></li>
+        <li><a href="https://nurafianzulkifli.github.io/signages-nrfz/" class="nav-link scrollto"><i class='bx bx-arrow-back'></i>
+            <span>Return to Current Look</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero-animated" class="hero-animated d-flex align-items-center">
-    <div class="overlay-hero"></div>
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
-      data-aos="zoom-out">
-      <h2 class="hero-hello">Wayfinding? <br> Right this way.</h2>
-      <p class="hero-intro">Tidying up loose ends. A step at a time</p>
-      <div class="d-flex justify-content-center">
-        <a class="scrollto" href="../#problem"><img src="assets/img/chevron-nws.svg" class="img-fluid animated"></a>
-      </div>
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <p><span class="typed" data-typed-items="Tidying up loose ends. A step at a time"></span></p>
+      <h1>Wayfinding? Right this way.</h1>
     </div>
-  </section>
+  </section><!-- End Hero -->
 
   <main id="main">
 
-
-    <!-- =============================================================== The Problem Section =============================================================== -->
-    <section id="problem" class="timelines">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="problem" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
-        <div class="section-header">
+
+        <div class="section-title">
           <h2>The Problem</h2>
         </div>
 
-        <ul class="nav nav-tabs row gy-4 d-flex">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <li class="nav-item col">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-              <i class="fas fa-info-circle no-hover"></i>
-              <h4 class="no-hover">Context</h4>
-            </a>
-          </li><!-- End Tab 1 Nav -->
-
-          <li class="nav-item col">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-              <i class="fa-solid fa-eye no-hover"></i>
-              <h4 class="no-hover">Observations</h4>
-            </a>
-          </li><!-- End Tab 2 Nav -->
-
-          <li class="nav-item col">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-              <i class="fa-solid fa-check no-hover"></i>
-              <h4 class="no-hover">Identify</h4>
-            </a>
-          </li><!-- End Tab 3 Nav -->
-
-        </ul>
-
-        <div class="tab-content">
-
-          <div class="tab-pane active show" id="tab-1">
-            <div class="row gy-4">
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <h3 class="summary-tit">Context</h3>
-                <p class="summary">
-                  The idea all started with the launch of the new Wayfinding system on the Thomson-East Coast Line
-                  stations. It spots a new design language, where the emphasis was mainly on iconographies, rather than
-                  pure texts. I for one, am a huge fan of this new design albeit it has a few minor flaws. <br><br>
-
-                  While the intention sounds good on paper, the execution turned out to be unfavourable (trust me, it's
-                  still not too late to patch up stuffs), as navigating
-                  through the Interchange station with these new system, were in fact, confusing commuters more. These
-                  became evident after the opening of TEL2, where the passenger traffic grew, and people began utilising
-                  the line.<br><br>
-                  <b>Head over to the Observations tab, where you'll see what the problem is all about.</b>
-                </p>
-              </div>
-              <div class="col-lg-4 order-1 order-lg-2 text-center portfolio-item filter-id" data-aos="fade-up"
-                data-aos-delay="200">
-                <a href="assets/img/prob-sol-img/nws.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/nws.jpg" class="img-fluid-portfolio"
-                    alt=""></a>
-                <br><br>
-                <p class="contextImg-caption">Fig. 1: The New Wayfinding System - in the initial state before
-                  modifications
-                  <br><b>Photo Credits: <a
-                      href="https://eyeondesign.aiga.org/one-designers-quest-to-redesign-singapores-subway-signage/">
-                      Samuel Lim via AIGA - Eye On Design</a></b>
-                </p>
-              </div>
-            </div>
-          </div><!-- End Tab Content 1 -->
-
-          <div class="tab-pane" id="tab-2">
-
-            <div class="row">
-              <h3>Observations</h3>
-              <p class="summary">
-                It's paper signages galore!<br><br>
-
-                When entering a TEL station, you will definitely be greeted with a portable stand holding up an A4-size
-                paper, mentioning either the lines, or the exit directories. At Woodlands TEL, there are 3 sets of
-                escalators, one would bring you to the NSL, the middle ones would bring you to the Way Out, and the
-                third one, would bring you to Exits 5-7. Many commuters would mistakenly take the middle set of
-                escalators, where it only brings you to the Way Out, and not to NSL, because that is where the Faregates
-                are. Hence signages like these (Fig. 2) were placed. While useful, it looks very clunky.
-
-                <br><br>The worst one was seen at Marina Bay, where
-                the portable signages, showing the NSL/CCL direction (Fig. 4). The same info can be found just by
-                looking up, where the permanent signs were!
-                Why were the portable signs necessary then?
-
-                <br><br>
-                <b>Head over to the Identify tab, where I'll try to identify and dissect what went wrong.</b>
-              </p>
-
-              <div class="col-md-4 portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/wdl-1.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/wdl-1.jpg"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 2: Woodlands TEL's Portable Signs telling commuters to
-                  use
-                  the other set of escalators to NSL.
-
-                </p>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/lnt-1.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/lnt-1.jpg"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 3: Paper signs showing the Exit Directories
-
-                </p>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/mrb-1.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/mrb-1.jpg"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <div class="portfolio-info">
-                  <p class="contextImg-caption text-center">Fig. 4: Marina Bay TEL's Portable Signs telling commuters to
-                    use
-                    the other set of escalators to NSL. This is the same problem as the ones in woodlands TEL.
-
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/mrb-2.jpg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/mrb-2.jpg"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <div class="portfolio-info">
-                  <p class="contextImg-caption text-center">Fig. 5: Marina Bay TEL's Portable Signs showing commuters
-                    the
-                    directions to NSL/CCL.
-
-                  </p>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/the-problem/conM.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Context</h4>
+                <div class="portfolio-links">
+                  <a href="the-problem/context.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Work Details"><i class='bx bxs-info-circle'></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Tab Content 2 -->
+          </div>
 
-          <div class="tab-pane" id="tab-3">
-            <div class="row">
-              <div class="col-lg-12">
-                <h3>Identify</h3>
-                <p class="summary-norm">
-                  How can we improve it?<br><br>
-
-                  I understand that the whole intention of these new Wayfinding system is to make wayfinding, well,
-                  easier. But how much simpler can these signs go? <br><br> As quoted by the designer himself, he said:
-                </p>
-                <blockquote
-                  cite="https://www.lasalle.edu.sg/features/conversation-samuel-lim-redesigning-singapores-subway-signage">
-                  “It means that our redesign, in this instance, has failed, because people can’t even see the signage
-                  hanging up there above,” said Lim, who works at the Land Transport Authority (LTA), a government
-                  agency
-                  that oversees the signage system of Singapore’s Mass Rapid Transit (MRT) system.</blockquote>
-
-                <p class="summary">
-                  In my opinion, while it is true that it somehow failed, to salvage them is actually possible.
-                  Believe it or not, it just needed something. Yep, it's text. To dive in deeper, let's take a look at
-                  the different
-                  parts the new Wayfinding system did wrong.
-                </p>
-
-                <!--  -->
-                <h3 data-aos="fade-up" data-aos-delay="100">Part 1: Wayfinding Iconographies</h3><br>
-                <p class="summary">
-                  Let's take a look at Fig. 6. What do these icons mean to
-                  an average person, who may not understand what these were supposed to depict? In addition, would a
-                  tourist immediately know what is TEL, NEL etc? <br>
-                </p>
-                <div class="row">
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/wf-icons.png" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/wf-icons.png"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 6: A few examples of icons being used in the
-                        system.
-                        Recreated the real-life ones as accurate as possible
-
-                      </p>
-                    </div>
-                  </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/the-problem/obsvM.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Observations</h4>
+                <div class="portfolio-links">
+                  <a href="the-problem/observations.html" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Work Details"><i class="fa-solid fa-eye no-hover"></i></a>
                 </div>
-
-                <p class="summary">
-                  I applaud the small effort of text in the icons, later added on the signages for Bus Interchanges
-                  (mainly Woodlands ITH, and the new Tampines North Bus Int), but it is not enough.
-                </p>
-
-                <!--  -->
-                <h3>Part 2: Exit Directories</h3><br>
-                <p class="summary">
-                  I have arrived at my station. Where to, next? This is where the Exit Directories come in. However, the
-                  current
-                  implementation only has Exit Directories at the Concourse, while the ones at the Platforms only as the
-                  'Way out' icon.<br>
-                </p>
-
-                <div class="row">
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/sign-2.jpg" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/sign-2.jpg"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 7: Way Out icons at the Platform. The Exit
-                        Directories are only available at the Concourse level
-                        <br><b>Photo Credits: <a href="https://mothership.sg/2019/12/lta-new-map/">
-                            Mothership.sg</a></b>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <p class="summary">
-                  Some of you may think, "Nah that is not necessary. Just get to the top and find out. Well, you'll be
-                  greeted with these at Upper Thomson MRT station (Fig. 8 and 9). Turns out you do need them huh?<br>
-                </p>
-
-                <div class="row">
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/mfl-1.jpg" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/mfl-1.jpg"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 8: Mayflower TEL's Portable Exit Directory (1)
-                        <br><b>Photo Credits: <i class="fa-brands fa-discord"></i>&nbsp;Adiel</b>
-                      </p>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/mfl-2.jpg" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/mfl-2.jpg"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 9: Mayflower TEL's Portable Exit Directory (2)
-                        <br><b>Photo Credits: Discord User Adiel</b>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <p class="summary">
-                  So why not solve these once and for all - Bring the Exit Directories to the Platforms too. But before
-                  doing that, the Exit Directory list itself needs some minor tweaking too. This is how the current Exit
-                  Directories look (Fig. 10). As seen here, the Exit Numbers are all not in order, as it is sorted
-                  according to the place's Alphabetical Order. <br><br>
-                  As a user myself, if I'm too lazy to use Google Maps, or when I forget to bring my Mobile Devices
-                  (sometimes it happens), I would refer to the Exit Directories. You can’t deny that using Google Maps
-                  would be faster and easier, because I won't even need to check the Directories as it quickly tells me
-                  which Exits to take (Fig. 11). <i>As you can also see, both the Exit Directory and Google Maps could
-                    not agree on
-                    which Exits to take, but that is a different story for another day. <br><br></i>
-
-                  But if you were to actually refer to the Exit Directories, the list is currently is very overwhelming
-                  to see - well, probably because it was arranged in alphabetical order. In my opinion, I would prefer
-                  the lists to be arranged in Exit Number/Letter order. <br><b>You can see how I'd envision it to be
-                    improved, in the Solutions section, below.
-                  </b>
-                </p>
-
-                <div class="row">
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/1.png" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/1.png"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 10: Current Exit Directory list
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/gmaps-1.jpg" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/gmaps-1.jpg"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 11: Using Google Maps, they would normally tell you
-                        which Exits to take immediately. (Picture edited for privacy reasons) </b>
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-
-
-                <!--  -->
-                <h3 data-aos="fade-up" data-aos-delay="100">Part 3: Consistencies, as a whole</h3><br>
-                <p class="summary">
-                  Consistencies is a key to good design system. The current signage design is almost there, but some
-                  parts are not consistent. A most notalbe examples is the Exit Letters/Numbers. TEL uses Numbers (Exit
-                  1,2,3 etc), while the rest still uses Letters. Rales Place particularly, began the changeout to the
-                  new current signage design, but retained the Exit Letters. This may confuse some people, but I also
-                  understood why it was done. Change to numbers - may confuse existing people using the exits, retain
-                  the letters, while i minimises confusion, may lead to inconsistencies. In my opinion, they SHOULD
-                  change to numbers, and the LTA should also start consolidating exits to make it simpler. <br>
-                </p>
-                <div class="row">
-                  <div class="col-md-4 portfolio-item filter-id">
-                    <a href="assets/img/prob-sol-img/wf-icons2.png" data-gallery="portfolio-gallery"
-                      class="glightbox preview-link"><img src="assets/img/prob-sol-img/wf-icons2.png"
-                        class="img-fluid-portfolio" alt=""></a>
-                    <br><br>
-                    <div class="portfolio-info">
-                      <p class="contextImg-caption text-center">Fig. 12: A few examples of different icons being used in
-                        the system. Raffles Place uses a different set of icons (particularly, the Way Out and Exit
-                        Letter icon), which seems like a newer design.
-                        Recreated the real-life ones as accurate as possible
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <p class="summary"> Some stations, take Tampines, for example, uses the <a
-                    href="https://www.transportdesign.com/projects/singapore-connecting-a-city">
-                    slightly older signage design language</a></b>, along with the current signage design's fonts. One
-                  would think that they would've picked a new design language, and then apply it islandwide, but that
-                  does not seem to be the case.
-                </p>
               </div>
+            </div>
+          </div>
 
-              <div class="row">
-                <div class="col-md-4 portfolio-item filter-id">
-                  <a href="assets/img/prob-sol-img/sam-tdc1.jpg" data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"><img src="assets/img/prob-sol-img/sam-tdc1.jpg"
-                      class="img-fluid-portfolio" alt=""></a>
-                  <br><br>
-                  <div class="portfolio-info">
-                    <p class="contextImg-caption text-center">Fig. 13: New fonts, mix with old design? <br>
-                      <b>Photo Credits: <i class="fa-brands fa-discord"></i>&nbsp;Joofer</a></b>
-                    </p>
-                  </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/the-problem/idenM.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Identify</h4>
+                <div class="portfolio-links">
+                  <a href="the-problem/identify.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Work Details"><i class="fa-solid fa-circle-check"></i></a>
                 </div>
-
-                <div class="col-md-4 portfolio-item filter-id">
-                  <a href="assets/img/prob-sol-img/sam-tdc2.jpg" data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"><img src="assets/img/prob-sol-img/sam-tdc2.jpg"
-                      class="img-fluid-portfolio" alt=""></a>
-                  <br><br>
-                  <div class="portfolio-info">
-                    <p class="contextImg-caption text-center">Fig. 14: New fonts, mix with old design? <br>
-                      <b>Photo Credits: <i class="fa-brands fa-discord"></i>&nbsp;poopoo</a></b>
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-md-4 portfolio-item filter-id">
-                  <a href="assets/img/prob-sol-img/sam1.jpg" data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"><img src="assets/img/prob-sol-img/sam1.jpg"
-                      class="img-fluid-portfolio" alt=""></a>
-                  <br><br>
-                  <div class="portfolio-info">
-                    <p class="contextImg-caption text-center">Fig. 15: Entirely new design <br>
-                      <b>Photo Credits: <a
-                          href="https://www.instagram.com/p/CevPzR_pt8z/?utm_source=ig_embed&ig_rid=3777a39e-1425-415d-9963-ccd278406cee">
-                          Instagram user mtsginfo</a></b>
-                    </p>
-                  </div>
-                </div>
-
-
-
               </div>
-            </div><!-- End Tab Content 3 -->
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section>
+    </section><!-- End Portfolio Section -->
 
-    <!-- =============================================================== The Solution Section =============================================================== -->
-    <section id="solution" class="timelines">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="solution" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
-        <div class="section-header">
+
+        <div class="section-title">
           <h2>The Solution</h2>
         </div>
 
-        <ul class="nav nav-tabs row gy-4 d-flex">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <li class="nav-item col">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1a">
-              <i class="fas fa-info-circle no-hover"></i>
-              <h4 class="no-hover">Design & Development</h4>
-            </a>
-          </li><!-- End Tab 1 Nav -->
-
-          <li class="nav-item col">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2a">
-              <i class="fas fa-eye no-hover"></i>
-              <h4 class="no-hover">Virtual Prototypes</h4>
-            </a>
-          </li><!-- End Tab 2 Nav -->
-        </ul>
-
-        <div class="tab-content">
-
-          <!-- Design & Development -->
-          <div class="tab-pane active show" id="tab-1a">
-            <div class="row">
-
-              <!-- Start of Content 1 -->
-              <h3 data-aos="fade-up" data-aos-delay="100">Part 1: Wayfinding Iconographies</h3><br><br><br>
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  Now this is the fun part. How do I improve the designs, based on my point of view?<br><br>
-                  The quote, <a href="https://youtu.be/sA2jQ0_UazU?t=60">"it's really not that bad, it just needs a
-                    little shaping"</a>, applies to the existing Wayfinding Systems as well. Adding
-                  small texts below the big icons would help in clarity too. For example, I wanted to go to Marina
-                  Barrage. Now, if this is your first
-                  time at Gardens By the Bay, you will be greeted with this (See Fig. 16). It would help a lot if
-                  below the icons, it tells you what those icons mean. <br><br> In this case, the icons you see here was
-                  the Gardens
-                  By The Bay, followed by Marina Barrage, and the Passenger Service Office, respectively.
-                </p>
-              </div>
-
-              <div class="col-md-4 order-1 order-lg-2 text-center portfolio-item filter-id" data-aos="fade-up"
-                data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/mrbr.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/mrbr.png" class="img-fluid-portfolio"
-                    alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 16: Gardens By The Bay Concourse Signage
-
-                </p>
-              </div>
-            </div>
-
-
-            <div class="row">
-              <p class="summary" data-aos="fade-up" data-aos-delay="100">
-                Let's get back on the drawing board. Fig. 17 shows the icon sets, now with added labels. Fig. 18 shows
-                the idea, in Wireframe form. In Fig. 19, it shows
-                the comparison of how the current signage is like with the additions of texts. Fig. 20 is an example of
-                how the same proposed idea would be, retrofitted on the older signs.
-              </p>
-
-              <div class="col-md-4 portfolio-item filter-id" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/wf-icons3.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/wf-icons3.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 17: Labelled icons for easier understanding. Emphasis
-                  still is on the icons. The text acts as a placeholder
-
-                </p>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/nwsWF.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/nwsWF.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 18: Signage Wireframe (Low-Fi)
-
-                </p>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/wf1.gif" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/wf1.gif" class="img-fluid-portfolio"
-                    alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 19: Comparison between the current design, and my
-                  proposed
-                  design.
-
-                </p>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/wf2.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/wf2.png" class="img-fluid-portfolio"
-                    alt=""></a>
-                <br><br>
-                <div class="portfolio-info">
-                  <p class="contextImg-caption text-center">Fig. 20: Proposed design, on the older signage boards
-
-                  </p>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/the-solution/desdevM.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design & Development</h4>
+                <div class="portfolio-links">
+                  <a href="the-solution/des-dev.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Work Details"><i class='bx bxs-info-circle'></i></a>
                 </div>
               </div>
-
-
-              <!-- Start of Content 2 -->
-              <h3 data-aos="fade-up" data-aos-delay="100">Part 2: Exit Directories</h3><br><br><br>
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  I have arrived at my station. Where to, next? This is where the Exit Directories come in. The current
-                  implementation only has Exit Directories at the Concourse, while the ones at the Platforms only as the
-                  'Way out' icon.
-                </p>
-              </div>
-
-              <div class="col-md-4 order-1 order-lg-2 text-center portfolio-item filter-id" data-aos="fade-up"
-                data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/exit-d-tel.jpeg" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/exit-d-tel.jpeg"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 21: An Exit Directory and Locality Map, found on TEL
-                  stations
-                  <br><b>Photo Credits: <a
-                    href="https://mothership.sg/2020/01/thomson-east-coast-line-stage-1-free-travel/">
-                    Joshua Lee via Mothership.sg</a></b>
-                  
-                </p>
-              </div>
             </div>
+          </div>
 
-
-            <div class="row">
-              <p class="summary" data-aos="fade-up" data-aos-delay="100">
-                The Exit Directories' design is nice and neat, but the only gripes I had were the Exit Numbers being on
-                the right, and it being jumbled up, as the list of landmarks were arranged alphabetically. So I decided,
-                why not arranged it according to Exit Numbers and alphabetically? Best of both worlds.
-              </p>
-
-              <div class="col-md-4 portfolio-item filter-id" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/nwsWF2.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/nwsWF2.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 22: Exit Directory Wireframe (Low-Fi)
-
-                </p>
-              </div>
-
-              <div class="col-md-4 portfolio-item filter-id" data-aos="fade-up" data-aos-delay="100">
-                <a href="assets/img/prob-sol-img/wf3.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/wf3a.png" class="img-fluid-portfolio"
-                    alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 23: Comparison between the current design, and my
-                  proposed
-                  design.<br> (Left - Proposed Design, Right - Current)
-
-                </p>
-              </div>
-
-
-              <!--  -->
-              <p class="summary" data-aos="fade-up" data-aos-delay="100">
-                There is no need for 'Part 3: Consistencies, as a whole' section. Once we're able to iron out and fine
-                tune the
-                new system, it should, be able to be applied consistently. <br><br>
-
-                <b>Head over to the Virtual Prototypes tab, where I'll try to implement the new designs, along with my
-                  fine-tuned proposed design, to the existing signages.</b>
-              </p>
-
-
-
-
-            </div>
-          </div><!-- End Tab Content 1 -->
-
-
-
-
-
-          <!-- Virtual Prototypes -->
-          <div class="tab-pane" id="tab-2a">
-            <div class="row">
-              <h3>Part 1: Wayfinding Iconographies</h3><br><br><br>
-
-              <div class="row">
-
-                <!--  -->
-                <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                  <a href="assets/img/prob-sol-img/proto1.png" data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto1.png"
-                      class="img-fluid-portfolio" alt=""></a>
-                  <br><br>
-                  <p class="contextImg-caption text-center">Fig. 24a: Reworked signages for Woodlands TEL, middle set of
-                    escalators
-                  </p>
-                  </p>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/the-solution/virtM.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Virtual Prototypes</h4>
+                <div class="portfolio-links">
+                  <a href="the-solution/virt-proto.html" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Work Details"> <i class="fa-solid fa-eye no-hover"></i></a>
                 </div>
-
-                <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                  <a href="assets/img/prob-sol-img/proto10.png" data-gallery="portfolio-gallery"
-                    class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto10.png"
-                      class="img-fluid-portfolio" alt=""></a>
-                  <br><br>
-                  <p class="contextImg-caption text-center">Fig. 24b: Reworked signages for Marina Bay TEL, middle set of
-                    escalators, which leads straiht to TEL's Concourse
-                  </p>
-                  </p>
-                </div>
-
-                  <p class="summary">
-                    Instead of showing just the Way Out icon (which is
-                    pretty obvious), show where Exits the set of escalators would lead you to.
-                  </p>
               </div>
-
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto2.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto2.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 25: Reworked signages for existing signages - Dhoby Ghaut
-                  CCL station
-                </p>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  The proposed design works for older signages too. As
-                  older signages are more wordy and contained many details, I do not want to simply eliminate those
-                  away. Hence, I decided to balance between being simple, while remaining informative - with Icons still
-                  being the
-                  focal point of the signs. <br><br> The exit names, which used to occupy the existing signage, has been
-                  decoupled and separated below the empty spaces. The current implementation lacks these. Just showing
-                  the Way Out icon alone isn't enough.
-                </p>
-              </div>
-
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto3.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto3.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 26: Reworked signages for existing Bus Interchange
-                  signages
-                  - Yio Chu Kang Bus Interchange.
-                  <br><b>Photo Credits: <a href="https://landtransportguru.net/yio-chu-kang-bus-interchange/">
-                      landtransportguru.net</a></b>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  Yes Bus Interchanges, you're not forgotten! The proposed design works for bus interchanges as well.
-                  The same Design Language has been brought over to ensure consistency.
-              </div>
-
-
             </div>
+          </div>
 
-
-
-            <h3>Part 2: Exit Directories</h3><br>
-
-            <div class="row">
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto4.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto4.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 27: Exit Directory integrated to the Exit sign
-                  <br><b>Photo Credits: <a href="https://www.facebook.com/groups/sgtrainsbuzz/posts/8800748059950227/">
-                    <i class="fa-brands fa-facebook"></i>&nbsp;脇杰倫 via Latest Buzz!!! - SGTrains (Private Group)</a></b>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  Often, I find that that the Exit label is too plain. I thought, won't it be good to integrate the Exit
-                  Directory to the Exit labels as well. So basically, "Proceed to Exit 1 for Place A, B etc"
-              </div>
-
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto7.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto7.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 28: Exit Directory on Platforms as well
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  To combat the problems in Fig. 8 and 9, I decided to put the Exit Directories on the Platform as well
-                  (where the MRT Map/Locality Map is placed). Users can immediately locate their exits, and the places
-                  they want to go, right at the platform. Upon tapping out, they would've known where to go already.
-              </div>
-
-
-            </div>
-
-
-            <h3>Part 3: Consistencies, as a whole</h3><br>
-
-            <div class="row">
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto5.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto5.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 29: Exit Directory integrated to the Exit sign
-                  <br><b>Photo Credits: <i class="fa-brands fa-discord"></i>&nbsp;poopoo</b>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  This one is self-explanatory. Some stations like Bukit Gombak, Bedok, Raffles Place etc have switched
-                  to this new design. Why not, replace them with this new design
-                  as well? We have a new design, use it.
-              </div>
-
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto6.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto6.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 30: Reworked signages for existing signages - Tampines
-                  EWL Station <br>
-                  <b>Photo Credits: <i class="fa-brands fa-discord"></i>&nbsp;Joofer</a></b>
-                </p>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  Similiar to Fig. 25, the proposed design can be used for older signages too. However, one might notice
-                  that the Landmark names are gone in my proposed design. That is because, my proposed idea was the
-                  inclusion of Exit Directories at both the Concourse and the Platforms as well. Hence, by the time the
-                  user taps out from the station, they would've already knew which exits to take.
-                  <br><br> <i>Exit Letters have been replaced with Exit Numbers, for standardization. </i>
-                </p>
-              </div>
-
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto8.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto8.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 31: Reworked signages for existing signages - Bishan NSL
-                  Station <br>
-                  <b>Photo Credits: <i class="fa-solid fa-user"></i>&nbsp; Shahirwan Nur</a></b>
-                </p>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  Same as the rest, but this time I tried applying my design at Bishan NSL, where it's using the older
-                  signage design
-                  <br><br> <i>Not gonna lie, this one's a bit tricky.</i>
-                </p>
-              </div>
-
-              <!--  -->
-              <div class="col-md-4 order-2 order-lg-1 text-center portfolio-item filter-id">
-                <a href="assets/img/prob-sol-img/proto9.png" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><img src="assets/img/prob-sol-img/proto9.png"
-                    class="img-fluid-portfolio" alt=""></a>
-                <br><br>
-                <p class="contextImg-caption text-center">Fig. 32: Reworked signages for existing signages - Marina Bay
-                  CCL, showing the different landmarks for each CCL<i>e</i> stations <br>
-                  <b>Photo Credits: <i class="fa-brands fa-discord"></i>&nbsp;miyazawa </a></b>
-                </p>
-                </p>
-              </div>
-
-              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-                <p class="summary">
-                  Consistency is key, so let's upgrade existing signages to fit in with the latest design language, too.
-                  More signs like these should appear in <i>touristy</i> stations, like Bayfront, and Promenade.
-                </p>
-              </div>
-
-            </div>
-
-
-
-          </div><!-- End Tab Content 2 -->
         </div>
-
-      </div>
-    </section>
-
+    </section><!-- End Portfolio Section -->
 
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
+        <div class="section-title">
           <h2>About Project</h2>
         </div>
 
-        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-5">
-            <div class="about-img">
-              <img src="assets/img/about.jpg" class="img-fluid-profile" alt="">
+        <div class="row">
+          <div class="col-lg-4 pt-4-img">
+            <img src="assets/img/about.png" class="img-fluid about-img center-block" alt="">
+          </div>
+          <div class="col-lg-8 pt-4  content">
+            <h3>A redesign project by Nurafian Zulkifli</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi-arrow-right-circle-fill"></i> <strong>Made by:</strong> <span>Nurafian
+                      Zulkifli</span>
+                  </li>
+                  <li><i class="bi-arrow-right-circle-fill"></i> <strong>Project Year:</strong> <span>2020 -
+                      Present</span></li>
+                  <li><i class="bi-arrow-right-circle-fill"></i> <strong>Tools/Softwares Used:</strong>
+                    <span>Inkscape , GIMP</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-7">
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li><a class="nav-link active" data-bs-toggle="pill">Project Information</a></li>
-            </ul><!-- End Tabs -->
-
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade show active" id="tab1">
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="bi bi-person-circle"></i>
-                  <h4>&nbsp;Made by: Nurafian Zulkifli</h4>
-                </div>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="fa-regular fa-calendar"></i>
-                  <h4>&nbsp;2020 - Present</h4>
-                </div>
-
-                <div class="d-flex align-items-center mt-4">
-                  <i class="fa-solid fa-screwdriver-wrench"></i>
-                  <h4>&nbsp;Tools/Softwares Used: <a href="https://inkscape.org/">Inkscape </a>, <a
-                      href="https://www.gimp.org/">GIMP </a></h4>
-                </div>
-
-              </div><!-- End Tab 1 Content -->
-            </div>
-
-          </div>
-
         </div>
 
       </div>
-    </section>
+    </section><!-- End About Section -->
+
 
     <!-- ======= Connect Section ======= -->
     <section id="connect" class="connect">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
+        <div class="section-title">
           <h2>More about me</h2>
           <p>View my digital resume! Besides my interest in signages, I also love doing mockups and other designs too!
             Check them out!</p>
         </div>
 
-        <div class="row">
+        <div class="row gy-5">
 
           <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
@@ -962,43 +222,38 @@
               </div>
             </div>
           </div><!-- End Service Item -->
+
         </div>
       </div>
     </section>
 
-  </main>
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-legal text-center">
-      <div
-        class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div class="copyright">
-            &copy; 2023 <strong><span>Copyright</span></strong>. All Rights Reserved.
-          </div>
-          <div class="credits">
-            Last Updated: February 2023
-          </div>
-        </div>
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2023</span></strong>. All Rights Reserved.
+      </div>
+      <div class="modified">
+        Last Modified: May 2023
       </div>
     </div>
-
   </footer><!-- End Footer -->
 
-  <!-- ======= Back to Top ======= -->
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
